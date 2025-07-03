@@ -63,4 +63,8 @@ public class EmployeeRepo {
 		jdbcTemplate.update("delete from emp where empNo = ?", empNo);
 
 	}
+
+	public void demo11()[
+		
+	]
 }
