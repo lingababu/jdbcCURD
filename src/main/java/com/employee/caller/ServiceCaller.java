@@ -21,8 +21,6 @@ public class ServiceCaller implements ApplicationRunner {
 
 		Employee employee = new Employee(1006, "John", 2500, 43);
 		
-		Employee employee2 = new Employee(1006, "John", 2500, 43);
-
 		employeeService.saveEmployee(employee);
 
 		System.out.println();
