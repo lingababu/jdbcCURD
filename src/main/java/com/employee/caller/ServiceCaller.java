@@ -19,9 +19,9 @@ public class ServiceCaller implements ApplicationRunner {
 	@Override
 	public void run(ApplicationArguments args) throws Exception {
 
-		Employee e = new Employee(1006, "John", 2500, 43);
+		Employee employee = new Employee(1006, "John", 2500, 43);
 
-		employeeService.saveEmployee(e);
+		employeeService.saveEmployee(employee);
 
 		System.out.println();
 
