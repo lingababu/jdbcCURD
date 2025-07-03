@@ -42,4 +42,8 @@ public class ServiceCaller implements ApplicationRunner {
 
 	}
 
+	public void demo1(){
+
+	}
+
 }
