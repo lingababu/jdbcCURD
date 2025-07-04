@@ -39,4 +39,6 @@ public class ServiceCaller implements ApplicationRunner {
 		employeeService.deleteData(1006);
 
 	}
+
+	String name ="lb";
 }
