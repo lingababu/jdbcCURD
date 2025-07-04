@@ -20,7 +20,7 @@ public class ServiceCaller implements ApplicationRunner {
 	public void run(ApplicationArguments args) throws Exception {
 
 		Employee employee = new Employee(1006, "John", 2500, 43);
-		
+	
 		employeeService.saveEmployee(employee);
 
 		System.out.println();
@@ -39,5 +39,4 @@ public class ServiceCaller implements ApplicationRunner {
 		employeeService.deleteData(1006);
 
 	}
-
 }

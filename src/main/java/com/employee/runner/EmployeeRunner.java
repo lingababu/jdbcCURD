@@ -27,6 +27,7 @@ public class EmployeeRunner implements ApplicationRunner {
 		jdbcTemplate.update("INSERT INTO EMP VALUES (1003,'VIJAY',4000,70)");
 		jdbcTemplate.update("INSERT INTO EMP VALUES (1004,'GOWTHAMI',4000,10)");
 		jdbcTemplate.update("INSERT INTO EMP VALUES (1005,'SUMIYA',6500,20)");
+		jdbcTemplate.update("INSER INTO EMP VALUES (1008,'ANIL',1000,1)");
 
 	}
 
