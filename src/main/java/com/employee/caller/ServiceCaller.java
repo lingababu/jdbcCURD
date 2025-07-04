@@ -41,17 +41,4 @@ public class ServiceCaller implements ApplicationRunner {
 		employeeService.deleteData(1006);
 
 	}
-
-	public void demo1(){
-
-	}
-
-	public void demo2(){
-
-	}
-
-	public void demo3(){
-		
-	}
-
 }
